@@ -1,0 +1,47 @@
+/* -----font----- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* globally */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f0eaea;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+/* header styles start */
+header{
+    background-color: #22414d;
+    width:100vw;
+}
+.login, .honda-button{
+    background-color: #E76F51; 
+}
+/* header styles end */
+/* main style start */
+/*  feature bike styles start*/
+.feature img{
+    filter: grayscale(100%);
+}
+.feature img:hover{
+    filter: grayscale(0%);
+}
+/*  feature bike styles end*/
+
+/* testimonial styles start */
+.honda-text{
+    color: #d66346;
+}
+.fas, .far{
+    letter-spacing: 5px;
+    color: #E77C40;
+    font-size:20px ;
+}
+/* testimonial styles end */
+/* frequent question & answer start */
+/* frequent question & answer end */
+
+
