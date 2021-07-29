@@ -1,4 +1,4 @@
-/* -----font----- */
+/* font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /* globally */
@@ -18,7 +18,10 @@ header{
     width:100vw;
 }
 .login, .honda-button{
-    background-color: #E76F51; 
+    background-color: #E76F51;
+}
+.honda-button{
+    width:190px;
 }
 /* header styles end */
 /* main style start */
@@ -43,5 +46,30 @@ header{
 /* testimonial styles end */
 /* frequent question & answer start */
 /* frequent question & answer end */
+/* content start */
 
-
+.content{
+  background-color:  #22414d;
+  padding: 50px 0px;
+}
+.content p{
+    color: rgb(230, 220, 220);
+}
+.fa-truck, .fa-gopuram{
+    color:white;
+    font-size:40px;
+    padding:24px 16px 23px 24px;
+    text-align: center;
+    border-radius: 80%;
+    background-color: #d36d54;
+}
+.fa-hourglass-end, .fa-map-marker-alt{
+    color:white;
+    font-size: 47px;
+    padding:24px 18px 23px 24px;
+    text-align: center;
+    border-radius: 80%;
+    background-color: #d66f55;
+}
+/*content end*/
+/* app styles start */
